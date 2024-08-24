@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #5f3f7f; /* PhonePe purple */
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #5f3f7f; /* PhonePe purple */
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px; /* Space between icon and text */
+            width: 250px; /* Adjust width to fit content */
+            text-align: left; /* Align text to the left */
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #4e2c6f; /* Slightly darker purple */
+        }
+
+        .fa-icon {
+            font-size: 18px; /* Size of the icon */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To Banking System</h1>
+    <ul>
+        <li><a href="retrieve.jsp"><i class="fa-solid fa-house"></i> Go To Home Page</a></li>
+        <li><a href="addAmount.jsp"><i class="fas fa-plus-circle fa-icon"></i> Add Amount</a></li>
+        <li><a href="generateOtp.jsp"><i class="fas fa-shield-alt fa-icon"></i> Pay Amount</a></li>
+        <li><a href="checkBalance.jsp"><i class="fas fa-dollar-sign fa-icon"></i> Check Balance</a></li>
+        <li><a href="withdraw.jsp"><i class="fas fa-cash-register fa-icon"></i> Withdraw</a></li>
+    </ul>
+</body>
+</html>
